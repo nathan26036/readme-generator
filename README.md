@@ -1,16 +1,16 @@
 # Readme Generator
 
-
+The goal is to create a README generator. The user must input The title, the description, their github and other important aspects of a README and then it would generate a formatted README. The license selected must have a banner near the top of the page and the users github link and email are added at the bottom so anyone could reach out easily. There should also be a table of contents that scrolls to each section.
 
 ## The process
 
 ### What i did
-* Used css and bootstrap to create a clean format
-* Used the geo api to take the city and convert it to lat and lon
-* Used the lat and lon to gather the weather infromation for the 5 day forcast and the current forcast
-* Created elements using java to appear on the page that hold the weather information
-* Created a click function that would make the functions display the weather for the information typed
-* Created a loop that would generate a button from the citys put into local storage for the search history 
+* Included the packages needed for the application
+* Created the questions for the user to fill in information for their README
+* Created if statements to establish which licenese is being used and to add the banner that is clickable so the user can read more about the license
+* Created the format of the README and had it insert the answers from the users answers into it 
+* Made working links to the users github and email from the prompts for the questions section so someone could easily reachout
+* Created a working table of contents that will scroll down to each section 
 
 
 ![Password README generator questions]()
