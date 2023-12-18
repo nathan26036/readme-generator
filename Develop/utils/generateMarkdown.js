@@ -68,7 +68,7 @@ ${response.description}
 
 - [Usage](#usage)
 - [License](#license)
-- [How to Contribute](#howtocontribute)
+- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
  
@@ -80,7 +80,7 @@ ${response.usage}
 
 ${renderLicenseSection(response.license)}
 
-## How to Contribute
+## Contributing
 
 ${response.contributing}
 
