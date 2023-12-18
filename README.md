@@ -13,7 +13,7 @@ The goal is to create a README generator. The user must input The title, the des
 * Created a working table of contents that will scroll down to each section 
 
 
-![Password README generator questions]()
+![Password README generator questions](https://github.com/nathan26036/readme-generator/blob/main/images/09-questions.PNG)
   
 ## Installation 
 The final code tutorial can be found at https://drive.google.com/file/d/1oc8ldfV6XLvd9-TgXXLWB6Stoqgaqs5l/view
