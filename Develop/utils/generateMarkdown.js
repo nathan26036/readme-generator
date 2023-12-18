@@ -1,5 +1,4 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// A function that returns a license badge based on which license is passed in
 function renderLicenseBadge(license) {
   // MIT License
   if (license === "MIT") {
@@ -19,8 +18,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+// A function that returns the license link
 function renderLicenseLink(license) {
   // MIT License
   if (license === "MIT") {
@@ -40,8 +38,7 @@ function renderLicenseLink(license) {
   }
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+// A function that returns the license section of README
 function renderLicenseSection(license) {
   if (license !== 'No License') {
     return `
@@ -53,7 +50,7 @@ The application is covered under the following license: ${renderLicenseLink(lice
     }
 }
 
-// TODO: Create a function to generate markdown for README
+// A function to generate markdown for README
 function generateMarkdown(response) {
 return `
 # ${response.title}
@@ -97,4 +94,5 @@ Please contact me using the following links:
 [Email: ${response.email}](mailto:${response.email})`
 }
 
+// Exports the formatted Readme
 module.exports = generateMarkdown;

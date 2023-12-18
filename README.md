@@ -1,6 +1,6 @@
 # Readme Generator
 
-The goal is to create a README generator. The user must input The title, the description, their github and other important aspects of a README and then it would generate a formatted README. The license selected must have a banner near the top of the page and the users github link and email are added at the bottom so anyone could reach out easily. There should also be a table of contents that scrolls to each section.
+The goal is to create a README generator. The user must input the title, the description, their github and other important aspects of a README and then it would generate a formatted README. The license selected must have a banner near the top of the page and the users github link and email are added at the bottom so anyone could reach out easily. There should also be a table of contents that scrolls to each section.
 
 ## The process
 
